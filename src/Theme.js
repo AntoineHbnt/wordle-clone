@@ -1,0 +1,52 @@
+import { createStitches } from "@stitches/react";
+
+export const { styled, css } = createStitches({
+  theme: {
+    colors: {
+      "color-tone-1": "#000000",
+      "color-tone-2": "#787c7e",
+      "color-tone-3": "#878a8c",
+      "color-tone-4": "#d3d6da",
+      "color-tone-5": "#edeff1",
+      "color-tone-6": "#f6f7f8",
+      "color-tone-7": "#ffffff",
+      "color-tone-8": "#121212",
+      "color-tone-9": "#dfdfdf",
+      "color-tone-10": "#000000",
+      "color-tone-11": "#787c7e",
+      "color-tone-12": "#363636",
+      "color-nav-hover": "#f4f4f4",
+      "opacity-50": "rgba(255, 255, 255, 0.5)",
+      "error-background": "#e3e3e1",
+      "icon-disabled": "#a6a6a6",
+      "color-present": "#c9b458",
+      "color-correct": "#6aaa6a",
+      "color-absent": "$color-tone-2",
+      "text-color": "#ffffff",
+    },
+    space: {
+      1: "5px",
+      2: "10px",
+      3: "15px",
+    },
+    fontSizes: {
+      1: "12px",
+      2: "13px",
+      3: "15px",
+    },
+    fonts: {
+      untitled: "Untitled Sans, apple-system, sans-serif",
+      mono: "Söhne Mono, menlo, monospace",
+    },
+    fontWeights: {},
+    lineHeights: {},
+    letterSpacings: {},
+    sizes: {},
+    borderWidths: {},
+    borderStyles: {},
+    radii: {},
+    shadows: {},
+    zIndices: {},
+    transitions: {},
+  },
+});
